@@ -3,7 +3,11 @@ import skfuzzy as fuzz
 from matplotlib import pyplot as plt
 
 # [0, 10]
-x = np.arange(11)
+start = 0
+stop = 10 + 0.001
+step = 0.25
+x = np.arange(start, stop, step)
+print(x)
 
 # Triangular membership function
 trimf = fuzz.trimf(x, [0, 5, 10])
