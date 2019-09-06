@@ -42,29 +42,27 @@ slope = 4.0
 center = 5.0
 gbellmf = fuzz.gbellmf(x, width, slope, center)
 
-#plt.title("Fuzzy Membership Function")
 fig_scale = 1.5
-plt.figure(figsize = (6.4 * fig_scale, 4.8 * fig_scale))
+plt.figure(figsize=(6.4 * fig_scale, 4.8 * fig_scale))
 
 # 3 rows, 1 col, index from 1
 plt.subplot(311)
 plt.title("Fuzzy Membership Function")
-plt.plot(x, trimf, label = "Triangle")
-plt.plot(x, trapmf, label = "Trapezoidal")
-plt.legend(loc = "upper right")
+plt.plot(x, trimf, label="Triangle")
+plt.plot(x, trapmf, label="Trapezoidal")
+plt.legend(loc="upper right")
 
 plt.subplot(312)
-plt.plot(x, sigmf, label = "Sigmoid")
-plt.plot(x, smf, label = "S-function")
-plt.plot(x, zmf, label = "Z-function")
-plt.plot(x, pimf, label = "Pi-function")
-plt.legend(loc = "upper right")
+plt.plot(x, sigmf, label="Sigmoid")
+plt.plot(x, smf, label="S-function")
+plt.plot(x, zmf, label="Z-function")
+plt.plot(x, pimf, label="Pi-function")
+plt.legend(loc="upper right")
 
 plt.subplot(313)
-plt.plot(x, gaussmf, label = "Gaussan")
-plt.plot(x, gbellmf, label = "Bell-Shaped")
-plt.legend(loc = "upper right")
+plt.plot(x, gaussmf, label="Gaussan")
+plt.plot(x, gbellmf, label="Bell-Shaped")
+plt.legend(loc="upper right")
 
 plt.savefig("img/1-memship-function.png")
 plt.show()
-
