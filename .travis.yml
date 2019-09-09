@@ -1,0 +1,9 @@
+lanuage: python
+python:
+    - "3.6"
+    - "3.7"
+# command to install dependencies
+install:
+    - pip install flake8
+script:
+    - flake8
