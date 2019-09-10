@@ -19,6 +19,8 @@ plt.xlabel("Service")
 plt.ylabel("Tip")
 plt.xlim(0, 10)
 plt.ylim(0.05, 0.25)
+step = 0.05
+plt.yticks(np.arange(0.05, 0.25 + 0.5 * step, step))
 
 tip = (0.20 / 10) * service + 0.05
 plt.subplot(row, col, 2)
@@ -28,6 +30,8 @@ plt.xlabel("Service")
 plt.ylabel("Tip")
 plt.xlim(0, 10)
 plt.ylim(0.05, 0.25)
+step = 0.05
+plt.yticks(np.arange(0.05, 0.25 + 0.5 * step, step))
 
 plt.savefig("img/5-nonfuzzy-approach-1d.png")
 plt.show()
