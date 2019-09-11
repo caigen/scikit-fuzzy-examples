@@ -24,3 +24,21 @@ Fuzzy Logic SciKit (Toolkit for SciPy) Examples
 
 ![4-tipping-problem](img/4-tipping-problem.png)
 
+5, nonfuzzy approach 1d
+
+![nonfunzzy-apporach-1d](img/5-nonfuzzy-approach-1d.png)
+
+6, nonfuzzy approach 2d
+
+![nonfuzzy-approach-2d](img/6-nonfuzzy-approach-2d.png)
+
+7, tipping problem mamdani
+
+![tipping-problem-mamdani](img/7-tipping-problem-mamdani.png)
+
+8, tipping problem sugeno
+
+![tipping problem sugeno](img/8-tipping-problem-sugeno.png)
+
+
+
